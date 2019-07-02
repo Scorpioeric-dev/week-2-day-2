@@ -1,0 +1,111 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.box {
+background-color: aqua;
+ border-width: 25px; 
+font-family: Arial;
+font-size: large;
+height: 70px;
+width: 100vw;
+box-align: top;
+} 
+.upperbox {
+height: 25px;
+width: 50px;
+flex-direction: row;
+background-color: crimson;
+}
+.middlebox {
+    background-color:pink;
+    box-align: top;
+height: 3250px; 
+align-content: flex-start;
+font-display: large;
+}
+.outlinebox{
+    background-color:red;
+    padding-right: 100px;
+    height:30px;
+    width: 10px;
+
+}
+.topBox{
+    background-color: black;
+    height:45px;
+
+}
+.menu{
+    border: 1px solid red;
+    display: flex;
+     justify-content: flex-end;
+     height: 105px;
+     list-style-type: none;
+     align-items: center;
+}
+.largetext{
+    font-size: 50px;
+    position: absolute;
+    left: 0;
+
+}
+li{
+    margin-left: 100px;
+}
+.subscribe {
+    background-color: blue;
+    height:25px;
+    font-family: Ariel;
+    color:  white;
+}
+.In{
+    background-color: black;
+    color: white;
+    font-style: italic;
+    height: 40px;
+}
